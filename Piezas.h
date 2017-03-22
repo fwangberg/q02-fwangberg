@@ -32,6 +32,7 @@ class Piezas
   private:
   	std::vector < std::vector<Piece> > board;
   	Piece turn;
+	int countPiece(Piece);
 
   public:
   	/**
